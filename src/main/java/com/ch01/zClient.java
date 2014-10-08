@@ -7,8 +7,10 @@ public class zClient {
 		duck.performQuack();
 
 		duck = new RubberDuck();
+		//Default algorithm (behavior) FlyNoWay().
 		duck.performFly();
 		duck.performQuack();
+		//Dynamically change the algorithm (behavior) to FlyRocketPowered().
 		duck.setFlyBehavior(new FlyRocketPowered());
 		duck.performFly();
 
