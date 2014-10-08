@@ -1,3 +1,11 @@
+RTB004:
+com.ch01
+SOLUTION #1: Overriding fly functionality in the sub class could solve the issue.
+All the non flyable ducks will have this function do nothing.
+ISSUE: Every duck that shouldn't fly should have this function overridden
+-Any new duck (Wooden Decoy Duck) implementation should have the inherited functions changed accordingly.
+Inheritance is NOT the solution.
+
 RTB003:
 com.ch01
 PROBLEM: Inheritance gave Rubber duck the ability to fly.
