@@ -1,7 +1,7 @@
 RTB003:
 com.ch01
-Problem: Rubber ducks can now fly.
-As the super class (Duck) has been modified to have fly functionality,
+PROBLEM: Inheritance gave Rubber duck the ability to fly.
+As the super class (Duck) has been modified to have additional fly functionality,
 -the rubber duck can now fly which shouldn't be the case.
 
 RTB002:
