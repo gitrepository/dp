@@ -1,3 +1,9 @@
+RTB002:
+com.ch01
+Fly functionality to Duck. 
+Now the generic Duck can fly as well.
+Added fly functionality to it.
+
 RTB001:
 Simple Duck bird class implementation.
 Refer to fig01
