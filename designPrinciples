@@ -1,0 +1,16 @@
+###-###
+Identify the aspects of the application that vary and separate them.
+Take parts that vary and encapsulate them so that later you can extend or 
+-alter them without affecting those that don't
+
+###-###
+Program to an interface and not to an implementation.
+The above principle gives the client 
+-flexibility at runtime to change the behavior of the class being referenced (polymorphism). 
+Also decouples client from the actual implementation as the client is not aware of the 
+-always deals with the interface. Provides loose coupling and gives more flexibility.
+
+###-###
+Favor Composition (HAS A) over Inheritance(extends).
+Composition gives the scope for runtime modification of the composed reference provided
+-it follows proper interface implementation.

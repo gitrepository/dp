@@ -1,4 +1,9 @@
 ###-###
+RTB006:
+com.ch01
+SOLUTION #3: Encapsulate varying part out.
+
+###-###
 RTB005:
 com.ch01
 SOLUTION #2: Create Interface for changing functionality (fly/quack) 

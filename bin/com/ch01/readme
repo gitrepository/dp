@@ -12,8 +12,6 @@ Each behavior and has an interface (to program against) and different implementa
 Composition gives the scope for runtime modification of the composed reference provided
 -it follows proper interface implementation.
 
-ISSUE: We still are instantiating concrete behaviors in different types of ducks.
-
 
 ###-###
 RTB005:
