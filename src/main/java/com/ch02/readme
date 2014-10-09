@@ -1,0 +1,11 @@
+###-###
+RTB007:
+com.ch02
+PATTERN: Observer Design pattern.
+
+Define one-to-many dependency between the Objects so that when on Object changes state,
+-all it's dependencies are notified and updated automatically.
+
+If we have a need for publisher/Subscriber scenario, we use Observer Design Pattern.
+Publisher here publishes (makes a change) and all the subscribers get notified 
+-on the publication (on the change).
