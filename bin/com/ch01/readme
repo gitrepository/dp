@@ -1,7 +1,11 @@
 ###-###
 RTB006:
 com.ch01
-SOLUTION #3: Separate varying part from the non varying part. Encapsulate it.
+SOLUTION #3: PARRTEN - Strategy Pattern
+Strategy pattern defines various algorithms, encapsulates each one, and makes them interchangeable.
+Strategy pattern lets the algorithm vary independent of the clients that use it.
+
+Separate varying part from the non varying part. Encapsulate it.
 
 Behaviors (fly & quack) are separated out and encapsulated.
 Each behavior and has an interface (to program against) and different implementations of it.
@@ -11,6 +15,8 @@ Each behavior and has an interface (to program against) and different implementa
 
 Composition gives the scope for runtime modification of the composed reference provided
 -it follows proper interface implementation.
+
+ISSUE: We still are instantiating concrete behaviors in different types of ducks.
 
 
 ###-###
