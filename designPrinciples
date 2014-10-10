@@ -14,3 +14,7 @@ Also decouples client from the actual implementation as the client is not aware 
 Favor Composition (HAS A) over Inheritance(extends).
 Composition gives the scope for runtime modification of the composed reference provided
 -it follows proper interface implementation.
+
+###-###
+Strive for loosely coupled designs between the objects that interact.
+Loose coupling ==> less dependency ==> more flexibility
