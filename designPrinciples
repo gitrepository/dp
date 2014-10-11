@@ -1,3 +1,4 @@
+Ref-ch01
 ###-###
 Identify the aspects of the application that vary and separate them.
 Take parts that vary and encapsulate them so that later you can extend or 
@@ -15,6 +16,8 @@ Favor Composition (HAS A) over Inheritance(extends).
 Composition gives the scope for runtime modification of the composed reference provided
 -it follows proper interface implementation.
 
+Ref-ch02
 ###-###
 Strive for loosely coupled designs between the objects that interact.
 Loose coupling ==> less dependency ==> more flexibility
+

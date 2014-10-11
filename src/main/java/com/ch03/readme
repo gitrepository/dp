@@ -1,4 +1,6 @@
 ###-###
 RTB010:
 com.ch03
-PATTERN: Decorator Pattern.
+CASE STUDY: Implement Starbuzz billing system.
+Each type of coffee (DarkRoast, Decaf etc) have a discription &
+-cost associated with it.
