@@ -1,4 +1,14 @@
 ###-###
+RTB011:
+com.ch03
+ISSUE: Starbuzz added lot of different coffee types. Class explosion.
+As each class coffee class was computing it's cost, each different coffee type
+-had it's own class to compute the cost.
+Maintenance nightmare, if cost of products (milk, powder, etc..) change, 
+-would cause the code to change across all the classes.
+
+
+###-###
 RTB010:
 com.ch03
 CASE STUDY: Implement Starbuzz billing system.

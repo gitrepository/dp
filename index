@@ -1,4 +1,9 @@
 ###-###
+RTB011:
+com.ch03
+ISSUE: Starbuzz added lot of different coffee types. Class explosion.
+
+###-###
 RTB010:
 com.ch03
 CASE STUDY: Implement Starbuzz billing system.
