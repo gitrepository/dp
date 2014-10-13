@@ -1,4 +1,10 @@
 ###-###
+RTB012:
+com.ch03
+FIX: Add place holders to abstract class. Cost() impl in the abstract class.
+ISSUE: Partial fix. Existing Code change up on new product addition.
+
+###-###
 RTB011:
 com.ch03
 ISSUE: Starbuzz added lot of different coffee types. Class explosion.

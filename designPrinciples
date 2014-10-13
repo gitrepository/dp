@@ -16,8 +16,15 @@ Favor Composition (HAS A) over Inheritance(extends).
 Composition gives the scope for runtime modification of the composed reference provided
 -it follows proper interface implementation.
 
+When class inherit behavior by sub classing, this behavior is set statically  at compile time.
+-In addition all sub class must inherit the same behavior.
+When class extends behavior by composition, this behavior can be set dynamically at runtime.
+
 Ref-ch02
 ###-###
 Strive for loosely coupled designs between the objects that interact.
 Loose coupling ==> less dependency ==> more flexibility
 
+Ref-ch03
+###-###
+Classes should be open for extension and closed for modification.

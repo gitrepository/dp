@@ -1,4 +1,17 @@
 ###-###
+RTB012:
+com.ch03
+FIX: Adding place holders in the abstract class for various products
+-and have a basic cost() implementation that takes all the above products 
+-into consideration.
+
+ISSUE: If a coffee type needed a new product, existing code (abstract class)
+-will have to change.
+For some coffee types (like decaf) some of the product types (hasWhip) makes no sense.
+Customer has double mocha will cause cost() calc issue.
+
+
+###-###
 RTB011:
 com.ch03
 ISSUE: Starbuzz added lot of different coffee types. Class explosion.
