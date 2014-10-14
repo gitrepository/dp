@@ -1,4 +1,12 @@
 ###-###
+RTB013:
+com.ch03
+FIX: DECORATOR PATTERN - class pattern
+The decorator pattern attaches additional responsibility to an object dynamically.
+Decorator pattern provides flexible alternative to sub classing for extending functionality.
+
+
+###-###
 RTB012:
 com.ch03
 FIX: Adding place holders in the abstract class for various products

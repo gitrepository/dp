@@ -1,4 +1,9 @@
 ###-###
+RTB013:
+com.ch03
+FIX: DECORATOR PATTERN - Class diagram
+
+###-###
 RTB012:
 com.ch03
 FIX: Add place holders to abstract class. Cost() impl in the abstract class.
