@@ -3,6 +3,9 @@ RTB009:
 com.ch02
 Observer Pattern - Weather Station example
 Implementing weather station example.
+In this example, we will have to update different weather displays/observers (current, forecast, statistics)
+-when there is a change in the weather data/subject.
+Observer pattern is used to let the subject notify all it's observers up on change in the subject.
 
 
 ###-###
