@@ -2,6 +2,16 @@
 RTB014:
 com.ch03
 DECORATOR PATTERN - Code
+Component (Beverage - Dark Roast, House Blend) is the base class which is to be decorated at run time.
+
+Decorator (Mocha, Soya, SteamedMilk, Whimp) is going to be wrapped around the component at runtime.
+-That way a component can exist by itself or have multiple decorators wrapped around.
+
+Both concrete Component & concrete Decorator extend Abstract Component.
+
+Concrete Decorator has a reference (composition) to the component that it is decorating which is the key 
+-for providing runtime decoration capability. 
+Remember - Composition provides more flexibility over inheritance.
 
 
 ###-###

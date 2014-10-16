@@ -1,8 +1,8 @@
 package com.ch03;
 
-public class BevHouseBlend extends ABeverage {
+public class CompHouseBlend extends ABeverageComponent {
 
-	public BevHouseBlend() {
+	public CompHouseBlend() {
 		this.setDesc("House Blend Coffee");
 	}
 

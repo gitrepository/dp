@@ -3,14 +3,21 @@ package com.ch03;
 public class zClient {
 
 	public static void main(String[] args) {
-		ABeverage bev = new BevHouseBlend();
-		System.out.println("Plain "+bev.getDesc() + " $: "+ bev.cost());
+		ABeverageComponent beverageComponent = new CompHouseBlend();
+		System.out.println("Plain "+beverageComponent.getDesc() + " $: "+ beverageComponent.cost());
 
-		bev = new  SteamedMilk(bev);
-		bev = new  Mocha(bev);
-		bev = new  Mocha(bev);
-		bev = new  Soy(bev);
-		bev = new  Whip(bev);
-		System.out.println(bev.getDesc() + " $: "+ bev.cost());
+		beverageComponent = new  DecoSteamedMilk(beverageComponent);
+		beverageComponent = new  DecoMocha(beverageComponent);
+		beverageComponent = new  DecoMocha(beverageComponent);
+		beverageComponent = new  DecoSoy(beverageComponent);
+		beverageComponent = new  DecoWhip(beverageComponent);
+		System.out.println(beverageComponent.getDesc() + " $: "+ beverageComponent.cost());
+
+		beverageComponent = new CompDarkRoast();
+		System.out.println("Plain "+beverageComponent.getDesc() + " $: "+ beverageComponent.cost());
+
+		beverageComponent = new  DecoMocha(beverageComponent);
+		System.out.println(beverageComponent.getDesc() + " $: "+ beverageComponent.cost());
+
 	}
 }

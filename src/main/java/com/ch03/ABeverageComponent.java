@@ -1,6 +1,6 @@
 package com.ch03;
 
-public abstract class ABeverage {
+public abstract class ABeverageComponent {
 	private String desc = "Unknown Beverage";
 
 	public abstract double cost();

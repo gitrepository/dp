@@ -1,8 +1,8 @@
 package com.ch03;
 
-public class BevDarkRoast extends ABeverage {
+public class CompDarkRoast extends ABeverageComponent {
 
-	public BevDarkRoast() {
+	public CompDarkRoast() {
 		this.setDesc("Dark Roast");
 	}
 
