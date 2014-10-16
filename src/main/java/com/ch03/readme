@@ -2,6 +2,8 @@
 RTB014:
 com.ch03
 DECORATOR PATTERN - Code
+Decorators should have the same type as the object that they are decorating (components) 
+
 Component (Beverage - Dark Roast, House Blend) is the base class which is to be decorated at run time.
 
 Decorator (Mocha, Soya, SteamedMilk, Whimp) is going to be wrapped around the component at runtime.
@@ -10,8 +12,12 @@ Decorator (Mocha, Soya, SteamedMilk, Whimp) is going to be wrapped around the co
 Both concrete Component & concrete Decorator extend Abstract Component.
 
 Concrete Decorator has a reference (composition) to the component that it is decorating which is the key 
--for providing runtime decoration capability. 
+-for providing runtime decoration capability. That way the behavior can be dynamically assigned at run time
+-rather than compiletime if it were ONLY inheritance (which depends on the super class). 
 Remember - Composition provides more flexibility over inheritance.
+
+REAL WORLD DECORATORS:
+FileInputStream --> BufferedInputStream --> LineNumberInputStream
 
 
 ###-###
