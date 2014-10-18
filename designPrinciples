@@ -11,6 +11,12 @@ The above principle gives the client
 Also decouples client from the actual implementation as the client is not aware of the 
 -always deals with the interface. Provides loose coupling and gives more flexibility.
 
+Coding to a concrete class, say we add a new functionality, the code in the concrete class
+-will have to change to accommodate the new change.
+Coding to an interface, any new functionality could be implemented in a class that implements 
+-the same interface, that way new functionality can be referred thru polymorphism without any
+-change to the existing code.
+
 ###-###
 Favor Composition (HAS A) over Inheritance(extends).
 Composition gives the scope for runtime modification of the composed reference provided
