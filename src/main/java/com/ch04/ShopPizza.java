@@ -2,15 +2,11 @@ package com.ch04;
 
 public class ShopPizza {
 	private Pizza pizza;
+	private FactoryPizza factory;
 
 	public Pizza orderPizza(String type){
-		if(type.equals("Cheese")){
-			pizza = new PizzaCheese();
-		} else if(type.equals("Clam")){
-			pizza = new PizzaClam();
-		} else if(type.equals("Pepperoni")){
-			pizza = new PizzaPepperoni();
-		}
+		pizza = factory.createPizza("Cheese");
+
 		pizza.bake();
 		pizza.cut();
 		pizza.box();
