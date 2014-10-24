@@ -1,22 +1,19 @@
 package com.ch04;
 
 public class ShopPizza {
-	private Pizza pizza;
+	private FactorySimplePizza simpleFactoryPizza;
 
 	public Pizza orderPizza(String type){
-
-		if(type.equals("Cheese")){
-			pizza = new PizzaCheese();
-		} else if(type.equals("Clam")){
-			pizza = new PizzaClam();
-		} else if(type.equals("Pepperoni")){
-			pizza = new PizzaPepperoni();
-		}
+		Pizza pizza = simpleFactoryPizza.createPizza(type);
 
 		pizza.bake();
 		pizza.cut();
 		pizza.box();
 
 		return pizza;
+	}
+
+	public ShopPizza(FactorySimplePizza simpleFactoryPizza) {
+		this.simpleFactoryPizza = simpleFactoryPizza;
 	}
 }
