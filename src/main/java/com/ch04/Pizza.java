@@ -6,13 +6,13 @@ public class Pizza {
 	private String crust;
 
 	public void bake(){
-		System.out.println("Baking");
+		System.out.println("Baking "+name);
 	}
 	public void cut(){
-		System.out.println("Cutting");
+		System.out.println("Cutting "+name);
 	}
 	public void box(){
-		System.out.println("Packing");
+		System.out.println("Packing "+name);
 	}
 
 	/*

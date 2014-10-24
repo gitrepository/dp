@@ -1,13 +1,7 @@
 ###-###
-RTB016:
-com.ch04
-FIX: Encapsulate the varying part.
-ISSUE: Different flavors of same the same object. Need a better way to handle it.
-
-###-###
 RTB015:
 com.ch04
-CASE STUDY: Pizza franchise + making different type of pizzas
+CASE STUDY: Simple Pizza store
 ISSUE: Object creation code makes it open for modification in future.
 
 ###-###
