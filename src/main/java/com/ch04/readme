@@ -1,4 +1,15 @@
 ###-###
+RTB017:
+com.ch04
+FIX: Multiple Simple Factories defined.
+To cater to various franchises, we have various factories respectively.
+
+ISSUE: Localized changes with respect to franchises makes the code more fragile.
+DP - code is not closed for modification.
+Need a better way to handle encapsulate similar object creation.
+
+
+###-###
 RTB016:
 com.ch04
 FIX: Simple Factory defined. 

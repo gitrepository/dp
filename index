@@ -1,4 +1,10 @@
 ###-###
+RTB017:
+com.ch04
+FIX: Multiple Simple Factories defined.
+ISSUE: Localized changes with respect to franchise will cause issue.
+
+###-###
 RTB016:
 com.ch04
 FIX: Simple Factory defined. Encapsulate the varying part (creation)

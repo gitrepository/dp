@@ -15,6 +15,11 @@ public class Pizza {
 		System.out.println("Packing "+name);
 	}
 
+	public Pizza() {}
+	public Pizza(String name) {
+		this.name = name;
+	}
+
 	/*
 	 * G&S
 	 */
@@ -36,5 +41,4 @@ public class Pizza {
 	public void setCrust(String crust) {
 		this.crust = crust;
 	}
-
 }
