@@ -1,10 +1,20 @@
 package com.ch04;
 
-public class Pizza {
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class APizza {
 	private String name;
 	private String dough;
 	private String crust;
+	private List<String> toppings = new ArrayList<String>();
 
+	public void prepare(){
+		System.out.println("Preparing "+name);
+		for(String topping : toppings){
+			System.out.println("	Toppings "+topping);
+		}
+	}
 	public void bake(){
 		System.out.println("Baking "+name);
 	}
@@ -15,8 +25,8 @@ public class Pizza {
 		System.out.println("Packing "+name);
 	}
 
-	public Pizza() {}
-	public Pizza(String name) {
+	public APizza() {}
+	public APizza(String name) {
 		this.name = name;
 	}
 
@@ -40,5 +50,11 @@ public class Pizza {
 	}
 	public void setCrust(String crust) {
 		this.crust = crust;
+	}
+	public List<String> getToppings() {
+		return toppings;
+	}
+	public void setToppings(List<String> toppings) {
+		this.toppings = toppings;
 	}
 }

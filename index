@@ -1,4 +1,10 @@
 ###-###
+RTB018:
+com.ch04
+FIX: FACTORY METHOD PATTERN
+CONCERN: Dependency concerns. Concrete Creators (Factory classes) depend on concrete Products (Pizza classes).
+
+###-###
 RTB017:
 com.ch04
 FIX: Multiple Simple Factories defined.

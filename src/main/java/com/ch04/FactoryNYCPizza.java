@@ -1,16 +1,16 @@
 package com.ch04;
 
-public class FactoryNYCPizza {
+public class FactoryNYCPizza extends AShopPizza {
 
-	public Pizza createPizza(String type){
-		Pizza pizza = null;
+	public APizza createPizza(String type){
+		APizza pizza = null;
 
 		if(type.equals("Cheese")){
-			pizza = new PizzaCheese("NYC");
+			pizza = new PizzaNYCCheese();
 		} else if(type.equals("Clam")){
-			pizza = new PizzaClam("NYC");
+			pizza = new PizzaNYCClam();
 		} else if(type.equals("Pepperoni")){
-			pizza = new PizzaPepperoni("NYC");
+			pizza = new PizzaNYCPepperoni();
 		}
 		return pizza;
 	}

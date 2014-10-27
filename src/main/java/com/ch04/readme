@@ -1,4 +1,24 @@
 ###-###
+RTB018:
+com.ch04
+FIX: FACTORY METHOD PATTERN
+Factory Method Pattern defines an interface for creating object, but lets subclass to
+-decide which class to instantiate.
+Factory method defer instantiation to subclasses.
+
+Here we have two different franchises (NYC & Chicago). 
+They way pizzas, for instance are created in NYC & Chicago are different.
+Thus these differences are best handles by creating these pizzas locally (NYC/Chicago stores)
+-rather than at the main store (ShopPizza).
+
+Classes that are NOT most likely to change can be instantiated.
+Classes that are likely to change, it is better not depend on the concrete class as far as possible, 
+-should use patterns like Factory Method to encapsulate that change.
+
+CONCERN: Dependency concerns. Concrete Creators (Factory classes) depend on concrete Products (Pizza classes).
+
+
+###-###
 RTB017:
 com.ch04
 FIX: Multiple Simple Factories defined.
