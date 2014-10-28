@@ -11,11 +11,18 @@ They way pizzas, for instance are created in NYC & Chicago are different.
 Thus these differences are best handles by creating these pizzas locally (NYC/Chicago stores)
 -rather than at the main store (ShopPizza).
 
+We have achieved localized create process by applying factory method pattern where in 
+-the instantiation is delegated to the subclass.
+
 Classes that are NOT most likely to change can be instantiated.
 Classes that are likely to change, it is better not depend on the concrete class as far as possible, 
 -should use patterns like Factory Method to encapsulate that change.
 
-CONCERN: Dependency concerns. Concrete Creators (Factory classes) depend on concrete Products (Pizza classes).
+CONCERN: 
+Need ingredient factories, in order to each franchise to use the same quality of ingredients but  
+-and mix them as per the local taste.
+
+
 
 
 ###-###

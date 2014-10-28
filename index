@@ -2,13 +2,13 @@
 RTB018:
 com.ch04
 FIX: FACTORY METHOD PATTERN
-CONCERN: Dependency concerns. Concrete Creators (Factory classes) depend on concrete Products (Pizza classes).
+CONCERN: Need more ingredient factories (cheese, dough, crust etc..) other than Localized create process. 
 
 ###-###
 RTB017:
 com.ch04
 FIX: Multiple Simple Factories defined.
-ISSUE: Localized changes with respect to franchise will cause issue.
+ISSUE: Localized changes, with the way the pizza is created, with respect to franchise will cause issue.
 
 ###-###
 RTB016:

@@ -34,3 +34,7 @@ Loose coupling ==> less dependency ==> more flexibility
 Ref-ch03
 ###-###
 Classes should be open for extension and closed for modification.
+
+Ref-ch04
+###-###
+Depend upon Abstraction and not on Concrete Classes.
