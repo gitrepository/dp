@@ -2,7 +2,7 @@
 RTB018:
 com.ch04
 FIX: FACTORY METHOD PATTERN
-CONCERN: Need more ingredient factories (cheese, dough, crust etc..) other than Localized create process. 
+CONCERN: Pizza creation becomes more detailed. Need more ingredient (cheese, dough, crust etc..) factories. 
 
 ###-###
 RTB017:

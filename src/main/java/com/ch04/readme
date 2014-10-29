@@ -18,9 +18,8 @@ Classes that are NOT most likely to change can be instantiated.
 Classes that are likely to change, it is better not depend on the concrete class as far as possible, 
 -should use patterns like Factory Method to encapsulate that change.
 
-CONCERN: 
-Need ingredient factories, in order to each franchise to use the same quality of ingredients but  
--and mix them as per the local taste.
+CONCERN: Pizza creation becomes more detailed. Need more ingredient (cheese, dough, crust etc..) factories.
+Need a way to create different ingredients localized way.
 
 
 ###-###
