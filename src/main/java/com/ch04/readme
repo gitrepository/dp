@@ -6,6 +6,10 @@ Factory Method Pattern defines an interface for creating object, but lets subcla
 -decide which class to instantiate.
 Factory method defer instantiation to subclasses.
 
+Factory Method uses INHERITANCE to create objects.
+Factory Method uses Classes to create objects.
+Factory Method as the name says has just a method which generates a factory of products.
+
 Here we have two different franchises (NYC & Chicago). 
 They way pizzas, for instance are created in NYC & Chicago are different.
 Thus these differences are best handles by creating these pizzas locally (NYC/Chicago stores)
@@ -18,7 +22,7 @@ Classes that are NOT most likely to change can be instantiated.
 Classes that are likely to change, it is better not depend on the concrete class as far as possible, 
 -should use patterns like Factory Method to encapsulate that change.
 
-CONCERN: Pizza creation becomes more detailed. Need more ingredient (cheese, dough, crust etc..) factories.
+CONCERN: Pizza creation becomes more detailed. We need more groups of ingredients (cheese, dough, crust etc..) factories.
 Need a way to create different ingredients localized way.
 
 

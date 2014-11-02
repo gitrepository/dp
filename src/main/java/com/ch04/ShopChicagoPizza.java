@@ -1,8 +1,8 @@
 package com.ch04;
 
-public class FactoryChicagoPizza extends AShopPizza{
+public class ShopChicagoPizza extends AShopPizza{
 
-	public APizza createPizza(String type){
+	public APizza factoryMethodCreatePizza(String type){
 		APizza pizza = null;
 
 		if(type.equals("Cheese")){

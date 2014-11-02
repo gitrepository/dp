@@ -5,7 +5,7 @@ public abstract class AShopPizza {
 	public APizza orderPizza(String type){
 		APizza pizza;
 
-		pizza = createPizza(type);
+		pizza = factoryMethodCreatePizza(type);
 		pizza.bake();
 		pizza.cut();
 		pizza.box();
@@ -13,5 +13,5 @@ public abstract class AShopPizza {
 		return pizza;
 	}
 
-	public abstract APizza createPizza(String type);
+	public abstract APizza factoryMethodCreatePizza(String type);
 }

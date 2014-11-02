@@ -6,11 +6,11 @@ public class zClient {
 		AShopPizza factory = null;
 
 		//Order NYC Cheese Pizza
-		factory = new FactoryNYCPizza();
+		factory = new ShopNYCPizza();
 		factory.orderPizza("Cheese");
 
 		//Order Chicago Pepperoni
-		factory = new FactoryChicagoPizza();
+		factory = new ShopChicagoPizza();
 		factory.orderPizza("Pepperoni");
 
 		//If a new Franchise is opened, this client code is not effected as
