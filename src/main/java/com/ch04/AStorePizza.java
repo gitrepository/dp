@@ -1,11 +1,11 @@
 package com.ch04;
 
-public abstract class AShopPizza {
+public abstract class AStorePizza {
 
 	public APizza orderPizza(String type){
 		APizza pizza;
 
-		pizza = factoryMethodCreatePizza(type);
+		pizza = createPizza(type);
 		pizza.bake();
 		pizza.cut();
 		pizza.box();
@@ -13,5 +13,5 @@ public abstract class AShopPizza {
 		return pizza;
 	}
 
-	public abstract APizza factoryMethodCreatePizza(String type);
+	public abstract APizza createPizza(String type);
 }

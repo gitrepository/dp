@@ -1,34 +1,45 @@
 package com.ch04;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.ch04.sub.ICheese;
+import com.ch04.sub.IClams;
+import com.ch04.sub.IDough;
+import com.ch04.sub.ISauce;
 
 public abstract class APizza {
 	private String name;
-	private String dough;
-	private String crust;
-	private List<String> toppings = new ArrayList<String>();
+	private IDough dough;
+	private ISauce sauce;
+	private ICheese cheese;
+	private IClams clams;
 
-	public void prepare(){
-		System.out.println("Preparing "+name);
-		for(String topping : toppings){
-			System.out.println("	Toppings "+topping);
-		}
-	}
+	public abstract void prepare();
+
 	public void bake(){
-		System.out.println("Baking "+name);
+		System.out.println(name+" - Baking for 25 min st 350 F");
 	}
 	public void cut(){
-		System.out.println("Cutting "+name);
+		System.out.println(name+" - Cutting pizza into 8 diagonal slices");
 	}
 	public void box(){
-		System.out.println("Packing "+name);
+		System.out.println(name+" - Packing pizza into the box");
 	}
 
-	public APizza() {}
-	public APizza(String name) {
-		this.name = name;
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	/*
 	 * G&S
@@ -36,25 +47,40 @@ public abstract class APizza {
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getDough() {
+
+	public IDough getDough() {
 		return dough;
 	}
-	public void setDough(String dough) {
+
+	public void setDough(IDough dough) {
 		this.dough = dough;
 	}
-	public String getCrust() {
-		return crust;
+
+	public ISauce getSauce() {
+		return sauce;
 	}
-	public void setCrust(String crust) {
-		this.crust = crust;
+
+	public void setSauce(ISauce sauce) {
+		this.sauce = sauce;
 	}
-	public List<String> getToppings() {
-		return toppings;
+
+	public ICheese getCheese() {
+		return cheese;
 	}
-	public void setToppings(List<String> toppings) {
-		this.toppings = toppings;
+
+	public void setCheese(ICheese cheese) {
+		this.cheese = cheese;
+	}
+
+	public IClams getClams() {
+		return clams;
+	}
+
+	public void setClams(IClams clams) {
+		this.clams = clams;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 }

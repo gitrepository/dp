@@ -1,4 +1,20 @@
 ###-###
+RTB019:
+com.ch04
+FIX: ABSTRACT FACTORY PATTERN
+Abstract Factory pattern provides an interface for creating a family related 
+-or dependent classes without specifying their concrete classes.
+
+Abstract Factory pattern created objects using Composition rather than inheritance.
+(DP- prefer composition over inheritance).
+If we have to create related objects, we use Abstract Factory pattern. This would 
+-create a whole set of related objects rather than just one type (factory method).
+
+The client (StoreNYCPizza)  composes FactoryNYCPizzaIngredients to get the ability to create 
+-various products (cheese/sauce/clams etc).
+
+
+###-###
 RTB018:
 com.ch04
 FIX: FACTORY METHOD PATTERN
