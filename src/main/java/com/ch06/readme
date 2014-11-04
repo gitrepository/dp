@@ -1,0 +1,15 @@
+###-###
+RTB021:
+com.ch06
+COMMAND PATTERN: - Simple Remote Control implementation
+Command Pattern encapsulates Request as an Object, thereby letting you parameterize 
+-other objects with different requests/queues/log requests and support undoable operations.
+
+Command pattern packages the actions and receiver up into an  object that exposes just one method, 
+-execute().
+
+Command Object encapsulates a request by binding together a set of actions on a specific receiver.
+
+Simple remote Control implementation. This remote control has just one button.
+Depending on the command that is being set to the RC, the corresponding action associated with the receiver 
+-is being executed. Thus the RC is decoupled from the receiver.
