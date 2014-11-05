@@ -11,5 +11,7 @@ Command pattern packages the actions and receiver up into an  object that expose
 Command Object encapsulates a request by binding together a set of actions on a specific receiver.
 
 Simple remote Control implementation. This remote control has just one button.
-Depending on the command that is being set to the RC, the corresponding action associated with the receiver 
+Depending on the command that is being set to the RC slot, the corresponding action associated with the receiver 
 -is being executed. Thus the RC is decoupled from the receiver.
+The command object encapsulates action and ties it with the receiver.
+
