@@ -1,16 +1,33 @@
 package com.ch06;
 
+import com.ch06.sub.CommandNone;
+
 
 public class SimpleRemoteControl {
-	public ICommand slot;
+	private ICommand[] onCommand;
+	private ICommand[] offCommand;
 
-	public SimpleRemoteControl() {}
+	public SimpleRemoteControl() {
+		onCommand = new ICommand[7];
+		offCommand = new ICommand[7];
 
-	public void setSlot(ICommand slot) {
-		this.slot = slot;
+		for(int i=0; i<7; i++){
+			ICommand cmd = new CommandNone();
+			onCommand[i] = cmd;
+			offCommand[i] = cmd;
+		}
 	}
 
-	public void buttonPushed() {
-		slot.execute();
+	public void setCommand(int slot, ICommand onCmd, ICommand offCmd) {
+		onCommand[slot] = onCmd;
+		offCommand[slot] = offCmd;
+	}
+
+	public void onbuttonPushed(int slot) {
+		onCommand[slot].execute();
+	}
+
+	public void offbuttonPushed(int slot) {
+		offCommand[slot].execute();
 	}
 }
