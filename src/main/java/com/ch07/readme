@@ -7,6 +7,8 @@ Enumeration is replaced with Iterator.
 Target interface is Iterator. 
 Adaptee is Enumeration
 
+Adaptor Converts one interface to another
+Decorator (ch1) doesn't alter the interface but adds responsibility.
 
 ###-###
 RTB025:
