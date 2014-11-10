@@ -1,8 +1,17 @@
 ###-###
+RTB024:
+com.ch06
+COMMAND PATTERN - Remote Control implementation + undo functionality w/ state
+Fan with different speeds (High/Medium/Low). 
+*Different speeds of the same fan, in a room, share the same fan class.
+
+
+###-###
 RTB023:
 com.ch06
 COMMAND PATTERN - Remote Control implementation + undo functionality
 We are implementing implementing Undo button for the RC.
+
 
 ###-###
 RTB022:

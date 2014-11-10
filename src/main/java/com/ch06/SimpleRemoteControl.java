@@ -4,15 +4,17 @@ import com.ch06.sub.CommandNone;
 
 
 public class SimpleRemoteControl {
+	private static final int REMOTE_SIZE = 15;
+
 	private ICommand[] onCommand;
 	private ICommand[] offCommand;
 	private ICommand undoCommand;
 
 	public SimpleRemoteControl() {
-		onCommand = new ICommand[7];
-		offCommand = new ICommand[7];
+		onCommand = new ICommand[REMOTE_SIZE];
+		offCommand = new ICommand[REMOTE_SIZE];
 
-		for(int i=0; i<7; i++){
+		for(int i=0; i<REMOTE_SIZE; i++){
 			ICommand cmd = new CommandNone();
 			onCommand[i] = cmd;
 			offCommand[i] = cmd;
