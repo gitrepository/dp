@@ -1,4 +1,10 @@
 ###-###
+RTB023:
+com.ch06
+COMMAND PATTERN - Remote Control implementation + undo functionality
+We are implementing implementing Undo button for the RC.
+
+###-###
 RTB022:
 com.ch06
 COMMAND PATTERN - Remote Control implementation + more functionality

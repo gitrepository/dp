@@ -12,4 +12,8 @@ public class CommandLightOn implements ICommand {
 	public void execute(){
 		light.on();
 	}
+
+	public void undo(){
+		light.off();
+	}
 }

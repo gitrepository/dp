@@ -13,4 +13,8 @@ public class CommandGarageDoorOpen implements ICommand {
 	public void execute(){
 		garageDoor.open();
 	}
+
+	public void undo() {
+		garageDoor.close();
+	}
 }

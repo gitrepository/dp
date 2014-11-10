@@ -13,4 +13,10 @@ public class CommandSterioOn implements ICommand {
 		sterio.setVolume(7);
 		sterio.on();
 	}
+
+	@Override
+	public void undo() {
+		sterio.setVolume(0);
+		sterio.off();
+	}
 }

@@ -6,4 +6,6 @@ public class CommandNone implements ICommand {
 	public CommandNone() {}
 
 	public void execute(){}
+
+	public void undo(){}
 }

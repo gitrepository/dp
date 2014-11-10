@@ -21,7 +21,8 @@ public class zClient {
 
 		rc.offbuttonPushed(0);
 		rc.offbuttonPushed(3);
-		rc.onbuttonPushed(1);
+		rc.offbuttonPushed(1);
+		rc.undoButtonPushed();
 	}
 
 	private static void setupRemote(SimpleRemoteControl rc){

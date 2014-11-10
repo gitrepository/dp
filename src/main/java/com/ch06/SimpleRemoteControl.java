@@ -6,6 +6,7 @@ import com.ch06.sub.CommandNone;
 public class SimpleRemoteControl {
 	private ICommand[] onCommand;
 	private ICommand[] offCommand;
+	private ICommand undoCommand;
 
 	public SimpleRemoteControl() {
 		onCommand = new ICommand[7];
@@ -24,10 +25,16 @@ public class SimpleRemoteControl {
 	}
 
 	public void onbuttonPushed(int slot) {
+		undoCommand = onCommand[slot];
 		onCommand[slot].execute();
 	}
 
 	public void offbuttonPushed(int slot) {
+		undoCommand = offCommand[slot];
 		offCommand[slot].execute();
+	}
+
+	public void undoButtonPushed(){
+		undoCommand.undo();
 	}
 }
