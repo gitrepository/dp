@@ -1,4 +1,9 @@
 ###-###
+RTB025:
+com.ch07
+ADAPTER PATTERN - Converts one interface of classes into another interface that the client expects.
+
+###-###
 RTB024:
 com.ch06
 COMMAND PATTERN - Remote Control implementation + undo functionality w/ state

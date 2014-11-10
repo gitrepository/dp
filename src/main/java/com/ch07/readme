@@ -1,0 +1,7 @@
+###-###
+RTB025:
+com.ch07
+ADAPTER PATTERN: Adapter pattern converts one interface of classes into 
+-another interface that the client expects.
+Adapter lets classes work together that couldn't otherwise because of 
+-incompatible interfaces.
