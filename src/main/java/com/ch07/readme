@@ -1,4 +1,14 @@
 ###-###
+RTB026:
+com.ch07
+ADAPTER PATTERN: Real World example - Enumeration/Iterator.
+Enumeration provides a way to iterate thru collections.
+Enumeration is replaced with Iterator.
+Target interface is Iterator. 
+Adaptee is Enumeration
+
+
+###-###
 RTB025:
 com.ch07
 ADAPTER PATTERN: Adapter pattern converts one interface of classes into 

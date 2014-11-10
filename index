@@ -1,4 +1,9 @@
 ###-###
+RTB026:
+com.ch07
+ADAPTER PATTERN - Real World example - Enumeration/Iterator.
+
+###-###
 RTB025:
 com.ch07
 ADAPTER PATTERN - Converts one interface of classes into another interface that the client expects.
