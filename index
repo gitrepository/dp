@@ -1,4 +1,10 @@
 ###-###
+RTB028:
+com.ch07_2
+Home Theater implementation
+ISSUE: Simple task (watch a movie) results in dealing with a lot of subsystem interfaces. 
+
+###-###
 RTB027:
 com.ch07_1
 DP - Principle of Least Knowledge

@@ -1,0 +1,8 @@
+###-###
+RTB028:
+com.ch07_2
+Home Theater implementation
+To watch a movie, the user has to deal with lots of sub system interfaces 
+-as depicted in the picture.
+
+ISSUE: Simple task (watch a movie) results in dealing with a lot of subsystem interfaces. 
