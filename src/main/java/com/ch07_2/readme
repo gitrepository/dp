@@ -1,4 +1,17 @@
 ###-###
+RTB029:
+com.ch07_2
+Home Theater implementation
+FIX: FACADE PATTERN - Facade pattern provides a unified interface to a set of interfaces in subsystem.
+Facade defines a high level interface that makes the subsystem easier to use.
+
+In case of a movie theater example, Facade provides a high-level interface (IHomeTheater).
+For a client (user of the system), the home theater facade is an easy way to interact with the subsystem
+Facade internally deals with subsystem interfaces thus making the sub system easier to use.
+
+Facade pattern doesn't restrict the client from directly calling the subsystem interfaces.
+
+###-###
 RTB028:
 com.ch07_2
 Home Theater implementation

@@ -1,4 +1,10 @@
 ###-###
+RTB029:
+com.ch07_2
+Home Theater implementation
+FIX: FACADE PATTERN - Facade pattern provides a unified interface to a set of interfaces in subsystem.
+
+###-###
 RTB028:
 com.ch07_2
 Home Theater implementation
