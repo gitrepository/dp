@@ -11,6 +11,11 @@ Facade internally deals with subsystem interfaces thus making the sub system eas
 
 Facade pattern doesn't restrict the client from directly calling the subsystem interfaces.
 
+Decorator Pattern	: Doesn't alter the behavior of the interface but add additional responsibility.
+Adaptor Pattern		: Converts one interface to another that the client expects.
+Facade Pattern		: Makes an interface simpler.
+
+
 ###-###
 RTB028:
 com.ch07_2
