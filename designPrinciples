@@ -38,3 +38,9 @@ Classes should be open for extension and closed for modification.
 Ref-ch04
 ###-###
 Depend upon Abstraction and not on Concrete Classes.
+
+Ref-ch07_1
+###-###
+Principle of least Knowledge - talk only to your immediate friends.
+This principle prevents us from creating designs that have a large number of classes
+-coupled together.

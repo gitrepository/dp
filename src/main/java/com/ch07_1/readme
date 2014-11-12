@@ -1,0 +1,13 @@
+###-###
+RTB027:
+com.ch07_1
+DP - Principle of Least Knowledge - talk only to your immediate friends.
+This principle prevents us from creating designs that have a large number of classes
+-coupled together.
+
+DP guidelines
+1. Invoke methods on the object
+2. Invoke methods on objects passed in as method parameters
+3. Invoke methods on objects that were created/instantiated in the class/method
+4. Invoke methods on any components of the object
+
