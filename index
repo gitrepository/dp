@@ -1,4 +1,10 @@
 ###-###
+RTB031:
+com.ch08
+FIX: TEMPLATE METHOD PATTERN - Defines structure of an algorithm in a method(final)
+-deferring some steps to subclasses.
+
+###-###
 RTB030:
 com.ch08
 Simple Caffeine Beverage Example

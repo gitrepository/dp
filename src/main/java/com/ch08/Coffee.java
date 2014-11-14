@@ -1,26 +1,13 @@
 package com.ch08;
 
-public class Coffee {
-	void prepareRecipe(){
-		boilWater();
-		brewCoffeeGrings();
-		pourIntoCup();
-		addSugarAndMilk();
-	}
-
-	public void boilWater(){
-		System.out.println("Boiling Water");
-	}
-
-	public void brewCoffeeGrings(){
+public class Coffee extends ACaffeineBeverage {
+	@Override
+	public void brew() {
 		System.out.println("Brewing Coffee grinds");
 	}
 
-	public void pourIntoCup(){
-		System.out.println("Pouring into cup");
-	}
-
-	public void addSugarAndMilk(){
+	@Override
+	public void addCondiments() {
 		System.out.println("Adding Sugar and Milk");
 	}
 }

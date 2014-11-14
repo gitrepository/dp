@@ -1,26 +1,13 @@
 package com.ch08;
 
-public class Tea {
-	void prepareRecipe(){
-		boilWater();
-		steepTeaBag();
-		pourIntoCup();
-		addLemon();
-	}
-
-	public void boilWater(){
-		System.out.println("Boiling Water");
-	}
-
-	public void steepTeaBag(){
+public class Tea extends ACaffeineBeverage {
+	@Override
+	public void brew() {
 		System.out.println("Steeping tea bag");
 	}
 
-	public void pourIntoCup(){
-		System.out.println("Pouring into cup");
-	}
-
-	public void addLemon(){
+	@Override
+	public void addCondiments() {
 		System.out.println("Adding Lemon");
 	}
 }

@@ -1,4 +1,17 @@
 ###-###
+RTB031:
+com.ch08
+Simple Caffeine Beverage Example
+FIX: TEMPLATE METHOD PATTERN - it defines skeleton of an algorithm in a method (final), 
+-deferring some steps to subclasses.
+Template Method lets the subclass redefine certain steps of an algorithm 
+-without changing it's structure/sequence.
+
+ACaffeineBeverage (abstract class) template is defined where in the common steps are defined (final)
+-and the more specific steps are redefined in the subclasses.
+
+
+###-###
 RTB030:
 com.ch08
 Simple Caffeine Beverage Example
