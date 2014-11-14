@@ -44,3 +44,8 @@ Ref-ch07_1
 Principle of least Knowledge - talk only to your immediate friends.
 This principle prevents us from creating designs that have a large number of classes
 -coupled together.
+
+Ref-ch08
+###-###
+Hollywood Principle - Don't call us, we will call you.
+Low-level components do not call High-level components directly.

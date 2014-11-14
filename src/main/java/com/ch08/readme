@@ -1,4 +1,22 @@
 ###-###
+RTB033:
+com.ch08
+DP - Don't call us(High-level comp), we will call you(Low-level comp).
+
+COMPARISON: Dependency Inversion -Vs- Hollywood Principle
+Dependency Inversion principle is a technique of using Abstraction rather concrete classes.
+Hollywood Principle is a technique for building components so that low-level components can be hooked
+-into high-level components for computation without creating dependency between them.
+
+COMPARISON: Template Method -Vs- Strategy
+Template Method Pattern - Subclass decide how to implement steps in an algorithm.
+- Algorithm implementation through inheritance.
+
+Strategy Pattern - Encapsulate varying behavior and use delegation to decide which behavior to use.
+- Algorithm implementation through composition.
+
+
+###-###
 RTB032:
 com.ch08
 Simple Caffeine Beverage Example
