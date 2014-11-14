@@ -1,0 +1,10 @@
+###-###
+RTB030:
+com.ch08
+Simple Caffeine Beverage Example
+
+We have two types of Caffeine Beverages, Tea & Coffee, whose preparation process is very similar
+-except for few steps in the process.
+There are few steps in the algorithm that are specific to Tea/Coffee, common steps being duplicated.
+
+ISSUE: Duplication of common steps.
