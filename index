@@ -1,4 +1,9 @@
 ###-###
+RTB034:
+com.ch08
+PATTERN: TEMPLATE METHOD - real world example (Array sorting)
+
+###-###
 RTB033:
 com.ch08
 DP - Don't call us(High-level comp), we will call you(Low-level comp).

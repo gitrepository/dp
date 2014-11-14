@@ -1,4 +1,12 @@
 ###-###
+RTB034:
+com.ch08
+PATTERN: TEMPLATE METHOD - real world example (Array sorting)
+Array sort is implemented by "compareTo" which varies based on the implementation.
+CompareTo step in the sorting algorithm is implemented by the subclass (array object).
+
+
+###-###
 RTB033:
 com.ch08
 DP - Don't call us(High-level comp), we will call you(Low-level comp).
