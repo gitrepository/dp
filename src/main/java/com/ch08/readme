@@ -1,4 +1,13 @@
 ###-###
+RTB032:
+com.ch08
+Simple Caffeine Beverage Example
+TEMPLATE METHOD PATTERN with hook. At times hooks provide more flexibility. 
+We use an abstract method if it is needed by the subclass to implement that step as a part of the algorithm.
+We use hook if a method is optional (depending on the state) part of the algorithm. 
+
+
+###-###
 RTB031:
 com.ch08
 Simple Caffeine Beverage Example

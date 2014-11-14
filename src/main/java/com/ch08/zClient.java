@@ -8,5 +8,8 @@ public class zClient {
 		tea.prepareRecipe();
 		System.out.println();
 		coffee.prepareRecipe();
+		System.out.println();
+		tea.setNeedCondiments(false);
+		tea.prepareRecipe();
 	}
 }

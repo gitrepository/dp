@@ -10,4 +10,10 @@ public class Tea extends ACaffeineBeverage {
 	public void addCondiments() {
 		System.out.println("Adding Lemon");
 	}
+
+	//Hook - not a final method
+	//sub class may override if needed.
+	public boolean customerWantsCondiments(){
+		return isNeedCondiments();
+	}
 }

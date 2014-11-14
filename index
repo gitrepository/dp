@@ -1,4 +1,9 @@
 ###-###
+RTB032:
+com.ch08
+TEMPLATE METHOD PATTERN with hook.
+
+###-###
 RTB031:
 com.ch08
 FIX: TEMPLATE METHOD PATTERN - Defines structure of an algorithm in a method(final)
